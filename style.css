@@ -1,0 +1,534 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+}
+
+/* section-1 */
+
+.section1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.589)),
+    url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  padding: 1.5rem 9% 9% 9%;
+  height: 100vh;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 6rem;
+}
+
+.btn {
+  font-size: 1.1rem;
+  border-radius: 5rem;
+  padding: 0.7rem 1rem;
+  color: #eff1f3;
+  margin-right: 2rem;
+  border: 1px solid white;
+  transition: all 0.1s ease-in;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: silver;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 40rem;
+  text-transform: uppercase;
+  margin-top: 2.3rem;
+}
+
+li:hover {
+  border-bottom: 1px solid white;
+  padding-bottom: 0.5rem;
+}
+.section1 a {
+  color: beige;
+  font-size: 1.2rem;
+}
+.section1-heading {
+  color: white;
+  top: 20rem;
+  position: absolute;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+/* section-2 */
+
+.section2 {
+  padding: 1.5rem 9% 0 9%;
+}
+.section2-bottom {
+  display: flex;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 200;
+  color: #555555;
+  margin-top: 4rem;
+}
+.card {
+  width: 25%;
+  padding: 0 1rem;
+}
+hr {
+  display: block;
+  margin: 1.5rem auto;
+  width: 10%;
+  border-bottom: 1px solid orange;
+}
+.section2 i {
+  font-size: 4rem;
+  color: rgba(128, 0, 128, 0.473);
+  margin: 2rem 0 1.5rem 0;
+}
+.section2 h4 {
+  font-size: 1.4rem;
+  color: #565656;
+  margin-bottom: 1.5rem;
+}
+.section2 p {
+  font-size: 1.1rem;
+  color: #636363;
+}
+.section2-top p {
+  text-align: center;
+}
+/* section-3  */
+
+.section3 {
+  margin-top: 6rem;
+}
+
+.section3-card {
+  display: flex;
+  overflow: hidden;
+}
+.section3-image {
+  width: 25%;
+  height: 18rem;
+  overflow: hidden;
+  background-color: black;
+}
+.section3 img {
+  width: 100%;
+  transform: scale(1.2);
+  transition: all 0.2s;
+  opacity: 0.7;
+}
+.section3-image:hover img {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/* section-4 */
+
+.section4 {
+  background-color: #f4f4f4;
+  padding: 2rem 0 3rem 0;
+}
+
+.section4-gallery {
+  display: flex;
+  padding: 0 9% 0 22%;
+  font-size: 1.3rem;
+}
+.section4-number-miniheading {
+  display: flex;
+}
+.phone {
+  height: 25rem;
+  width: 20%;
+  margin-right: 5rem;
+  margin-top: 1.2rem;
+}
+.section4-gallery h5 {
+  margin-top: 3.5rem;
+  font-size: 1.3rem;
+  margin-right: 5rem;
+  font-weight: 100;
+  color: #555555;
+}
+.section4-gallery a {
+  display: inline-block;
+  margin-right: 2rem;
+}
+.number {
+  border-radius: 50%;
+  border: 2px solid purple;
+  color: purple;
+  padding: 0.8rem 0.6rem 0.25rem 0.6rem;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+  margin: 3rem 1.5rem 0 0;
+  font-size: 1.8rem;
+}
+.miniheadinh-2 {
+  margin-top: 4rem;
+}
+.miniheading-3 {
+  margin-top: 6rem;
+}
+.section4-miniheading img {
+  height: 3rem;
+  margin-top: 1.5rem;
+}
+
+/* section-5 */
+
+.section5 {
+  display: flex;
+  padding: 0 9% 9% 9%;
+}
+.section5 img {
+  width: 100%;
+  overflow: hidden;
+}
+.section5-image {
+  margin-right: 1.5rem;
+}
+.section5-image:last-child {
+  margin-right: 0;
+}
+.section5 p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #555555;
+}
+.section5 span {
+  display: inline-block;
+  font-size: 1.6rem;
+  margin: 1rem 0 0.5rem 0;
+}
+.section5 i {
+  color: plum;
+}
+
+/* section-6 */
+
+.section6 {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 2.5rem 9% 9% 9%;
+  background-color: #f4f4f4;
+  color: #555555;
+}
+.section6 h4 {
+  font-size: 2.1rem;
+  font-weight: 200;
+}
+.form-element {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+.map {
+  margin: 0 7.8rem 0 3rem;
+  height: 27rem;
+  width: 50rem;
+}
+input[type="text"] {
+  font-size: 1.2rem;
+  flex-grow: 1;
+  padding: 0.3rem;
+}
+select {
+  font-size: 1.2rem;
+  color: #555555;
+  flex-grow: 1;
+  padding: 0.3rem;
+  flex-grow: 1;
+}
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
+.row {
+  display: flex;
+  margin-bottom: 1.1rem;
+}
+label {
+  width: 20rem;
+}
+.checktext {
+  font-size: 1.1rem;
+}
+textarea {
+  flex-grow: 1;
+  height: 4rem;
+}
+textarea[name="message"] {
+  font-size: 1.5rem;
+  padding: 0.2rem;
+}
+.section6 a {
+  border-radius: 5rem;
+  border: 1px solid #555555;
+  padding: 0.04rem 1.9rem;
+  display: inline-block;
+  margin: 0.8rem 0 0 20rem;
+  color: #555555;
+  font-size: 1.3rem;
+}
+
+/* section-7 */
+
+.section7 {
+  width: 100%;
+  margin-bottom: 6rem;
+}
+.section7-gallery {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 8rem 0 8rem;
+}
+.section7-card-bottom span {
+  display: block;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: #555555;
+}
+.section7-card {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  width: 25%;
+  height: 28rem;
+}
+.section7-card hr {
+  width: 100%;
+  border-bottom: none;
+  margin: 1rem 0 0.5rem 0;
+  border: 1px solid #555555;
+}
+.section7-card h5 {
+  font-size: 1.8rem;
+  color: #555555;
+  font-weight: 100;
+  margin-bottom: 0.5rem;
+}
+.dollar1 {
+  color: blueviolet;
+  font-size: 1.1rem;
+}
+.dollar {
+  font-size: 4rem;
+  margin-bottom: 0.3rem;
+  margin-right: 0.5rem;
+}
+.section7-gallery a {
+  text-decoration: none;
+  border: 1px solid #555555;
+  border-radius: 5rem;
+  display: inline-block;
+  margin: 1rem 0 0 2.1rem;
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  color: #555555;
+}
+
+/* section-8 */
+
+.section8 {
+  height: 70vh;
+  width: 100%;
+  padding: 1.8rem 10rem 3rem 10rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.425)),
+    url("https://www.medicalnewstoday.com/content//images/articles/324/324956/close-up-of-a-plate-of-food.jpg");
+  background-size: cover;
+  color: #eff1f3;
+  background-attachment: fixed;
+}
+.section8-gallery {
+  display: flex;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+.content81 {
+  margin-right: 2.5rem;
+}
+.section8-card img {
+  height: 3rem;
+  width: 3rem;
+  margin: 1rem 0.8rem 0 0;
+  border-radius: 5rem;
+}
+.section8 h3 {
+  color: #f4f4f4;
+}
+.section8 i {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+/* media quary */
+
+@media only screen and (max-width: 1365px) {
+  .section3-image {
+    height: 11rem;
+  }
+  .section7-gallery {
+    padding: .3rem 0;
+  }
+  .section7-card {
+    padding: 0.2rem;
+  }
+  .section8 {
+    padding: .5rem .5rem;
+  }
+  .section8-card {
+    padding: 0.5rem;
+  }
+  .section1 {
+    height: 70vh;
+  }
+}
+@media only screen and (max-width: 984px) {
+  ul {
+    display: none;
+  }
+  .section4-gallery {
+    flex-direction: column;
+  }
+  .section6 {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .section6 h4 {
+    text-align: center;
+  }
+  .phone {
+    width: 30%;
+    margin: 0 auto;
+  }
+  .section4-gallery {
+    padding: 2rem;
+  }
+  .section1-heading h2 {
+    font-size: 2rem;
+  }
+  .map {
+    overflow: hidden;
+    width: 35rem;
+    height: 15rem;
+    margin: 2rem auto;
+  }
+  .section7-gallery {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .section7-card {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  .section6 h4{
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 853px) {
+  .section1 {
+    height: 60vh;
+  }
+  .section2-bottom {
+    flex-direction: column;
+  }
+  h3 {
+    font-size: 1.9rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+  .section1-heading {
+    top: 15rem;
+  }
+  .section2 p {
+    font-size: 1.2rem;
+  }
+  .section3-image {
+    height: 8rem;
+  }
+  .section5 {
+    flex-direction: column;
+  }
+  .section5-image {
+    padding: 1rem;
+  }
+  .phone {
+    width: 35%;
+  }
+  .section8-gallery {
+    flex-direction: column;
+  }
+  .section8 {
+    height: 200vh;
+  }
+  .row{
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 590px){
+  .section1 h2{
+    font-size: 1.2rem
+  }
+  .section1 a {
+    font-size: .5rem;
+  }
+  h3{
+    font-size: 1.4rem;
+  }
+  .map{
+    width: 35%;
+  }
+.section3-image{
+  height: 4rem;;
+}
+.phone{
+  width: 40%;
+}
+.section4 h5{
+font-size: 1rem;
+}
+.section6 a{
+  margin:   auto 0 ;
+}
+.section1-heading{
+  top: 11rem;
+}
+.section7-card{
+  height: 30rem;;
+}
+
+}
